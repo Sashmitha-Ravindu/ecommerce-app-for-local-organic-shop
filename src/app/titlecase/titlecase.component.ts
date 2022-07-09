@@ -12,4 +12,7 @@ export class TitlecaseComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  content="";
+
+
 }

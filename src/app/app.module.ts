@@ -13,6 +13,7 @@ import {SummaryPipe} from "./summary.pipe";
 import {CarPipe} from "./car.pipe";
 import { FavouritesComponent } from './favourites/favourites.component';
 import { TitlecaseComponent } from './titlecase/titlecase.component';
+import {SmartTitleCasePipe} from "./smart-title-case.pipe";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TitlecaseComponent } from './titlecase/titlecase.component';
     SummaryPipe,
     CarPipe,
     FavouritesComponent,
-    TitlecaseComponent
+    TitlecaseComponent,
+    SmartTitleCasePipe
   ],
     imports: [
         BrowserModule,
