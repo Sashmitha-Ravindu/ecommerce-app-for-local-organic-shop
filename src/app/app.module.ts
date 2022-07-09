@@ -12,6 +12,7 @@ import {FormsModule} from "@angular/forms";
 import {SummaryPipe} from "./summary.pipe";
 import {CarPipe} from "./car.pipe";
 import { FavouritesComponent } from './favourites/favourites.component';
+import { TitlecaseComponent } from './titlecase/titlecase.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FavouritesComponent } from './favourites/favourites.component';
     AuthorComponent,
     SummaryPipe,
     CarPipe,
-    FavouritesComponent
+    FavouritesComponent,
+    TitlecaseComponent
   ],
     imports: [
         BrowserModule,
