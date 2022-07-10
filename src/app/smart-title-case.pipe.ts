@@ -24,7 +24,7 @@ export class SmartTitleCasePipe implements PipeTransform{
   }
 
   private isPreposition(word:string):boolean{
-    let lowerCaseWords = ["a","an","of","the","in","on","and"]
+    let lowerCaseWords = ["a","an","of","the","in","on","and","for"]
 
     return lowerCaseWords.includes(word.toLowerCase());
   }
