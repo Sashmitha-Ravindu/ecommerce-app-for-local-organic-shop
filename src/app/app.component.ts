@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {FavouriteChangedEventArgs} from "./favourites/favourites.component";
+
 
 
 @Component({
@@ -11,13 +11,9 @@ import {FavouriteChangedEventArgs} from "./favourites/favourites.component";
 
 
 export class AppComponent {
-  post = {
-    title:"Title",
-    isFavourite:true
-  }
-
-  isFavouritesChanged(eventArgs: FavouriteChangedEventArgs){
-    console.log("Favourites changed!",eventArgs);
-  }
-
+  courses=[
+    {id:1, name:'course1 '},
+    {id:2, name:'course2 '},
+    {id:3, name:'course3 '}
+  ];
 }

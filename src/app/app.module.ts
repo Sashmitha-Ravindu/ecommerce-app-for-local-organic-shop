@@ -14,6 +14,8 @@ import {CarPipe} from "./car.pipe";
 import { FavouritesComponent } from './favourites/favourites.component';
 import { TitlecaseComponent } from './titlecase/titlecase.component';
 import {SmartTitleCasePipe} from "./smart-title-case.pipe";
+import { PanelComponent } from './panel/panel.component';
+import { LikesComponent } from './likes/likes.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import {SmartTitleCasePipe} from "./smart-title-case.pipe";
     CarPipe,
     FavouritesComponent,
     TitlecaseComponent,
-    SmartTitleCasePipe
+    SmartTitleCasePipe,
+    PanelComponent,
+    LikesComponent
   ],
     imports: [
         BrowserModule,
